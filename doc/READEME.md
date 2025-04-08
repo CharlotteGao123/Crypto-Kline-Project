@@ -14,7 +14,7 @@ src/
 # Object-Oriented Design (OOD)
 The following diagram illustrates the project's Object-Oriented Design structure:
 ```markdown
-![OOD Diagram](docs/CryptoKline-class.png)
+![OOD Diagram](doc/CryptoKline-class.png)
 ```
 # Setup 
 ## Prerequisites
