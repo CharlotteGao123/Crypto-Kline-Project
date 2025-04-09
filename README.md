@@ -13,9 +13,8 @@ src/
 ```
 # Object-Oriented Design (OOD)
 The following diagram illustrates the project's Object-Oriented Design structure:
-```markdown
 ![OOD Diagram](doc/CryptoKline-class.png?raw=true)
-```
+
 # Setup 
 ## Prerequisites
 - Java 17
