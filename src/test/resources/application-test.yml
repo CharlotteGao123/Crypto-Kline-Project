@@ -39,3 +39,9 @@ binance:
 app:
   kline:
     defaultNeed: 1440
+
+
+redis:
+  host: localhost
+  port: 6379
+  database: 0
