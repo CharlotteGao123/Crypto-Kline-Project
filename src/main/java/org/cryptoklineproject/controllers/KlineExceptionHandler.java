@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 public class KlineExceptionHandler {
 
     @ExceptionHandler({InputParamInvalidException.class})
-    public ResponseEntity<String> invalidParamHandler(InputParamInvalidException exception){
+    public ResponseEntity<String> invalidParamHandler(InputParamInvalidException exception) {
         String issue = exception.getMessage();
         return new ResponseEntity<>(issue, HttpStatus.BAD_REQUEST);
     }
